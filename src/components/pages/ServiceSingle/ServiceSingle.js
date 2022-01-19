@@ -14,17 +14,17 @@ export default () => {
     (service) => service.id.toString() === service_id
   )[0];
 
-  const steps = service.steps.map((item, index) => (
-    <div className={styles.wrapper} key={index}>
-      <div className={styles.step}>
-        <span style={{ background: THEME.color }}>
-          {"Step 0" + (index + 1)}
-        </span>
-        <h3>{item.title}</h3>
-        <p>{item.text}</p>
-      </div>
-    </div>
-  ));
+  // const steps = service.steps.map((item, index) => (
+  //   <div className={styles.wrapper} key={index}>
+  //     <div className={styles.step}>
+  //       <span style={{ background: THEME.color }}>
+  //         {"Step 0" + (index + 1)}
+  //       </span>
+  //       <h3>{item.title}</h3>
+  //       <p>{item.text}</p>
+  //     </div>
+  //   </div>
+  // ));
 
   return (
     <Fragment>
@@ -37,14 +37,14 @@ export default () => {
           />
         </div>
         <div className={styles.info}>
-          <span style={{ color: THEME.color }}>Our service</span>
+          <span style={{ color: THEME.color }}>Layanan Kami</span>
           <h1>{service.subtitle}</h1>
           <p>{service.full}</p>
         </div>
       </Layout>
-      <Layout col="3" padding style={{ background: "rgb(245,245,245)" }}>
+      {/* <Layout col="3" padding style={{ background: "rgb(245,245,245)" }}>
         {steps}
-      </Layout>
+      </Layout> */}
     </Fragment>
   );
 };

@@ -1,15 +1,11 @@
 import React, { Fragment } from "react";
 import {
-  Features,
-  Features2,
-  Subscribe,
   Services,
-  Team,
   Services3,
-  Contacts,
+  Portfolio2,
   Slider,
-  Reviews,
-  Facts,
+  Features2,
+  Contacts2
 } from "../../widgets";
 
 import { useCustomState } from "../../../state/state";
@@ -19,16 +15,13 @@ export default () => {
 
   return (
     <Fragment>
-          <Slider data={state.data.posts} />
-          <Services3 data={state.data.services} />
-          <Features2 data={state.data.features2} />
-          <Team data={state.data.team} />
-          <Facts data={state.data.facts} />
-          <Services data={state.data.services} />
-          <Features data={state.data.features} />
-          <Subscribe />
-          <Reviews data={state.data.reviews} />
-          <Contacts />
+      <Slider data={state.data.posts} />
+      <Services3 data={state.data.salepoint} />
+      <Features2 data={state.data.features2} />
+      <Services data={state.data.services} />
+      <Portfolio2 data={state.data.portfolio} />
+      {/* <Reviews data={state.data.reviews} /> */}
+      <Contacts2 />
     </Fragment>
   );
 };

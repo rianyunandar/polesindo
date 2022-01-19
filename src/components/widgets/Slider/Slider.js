@@ -33,9 +33,9 @@ export default ({ data = [] }) => {
 
           <div className={styles.intro}>
             <h1>{item.title}</h1>
-            <p>{item.short}</p>
+            <h3>{item.short}</h3>
             <Button to={"/blog/" + item.id} hoverType="solid-white-tb">
-              Read more
+              Lihat Detail
             </Button>
           </div>
           <i

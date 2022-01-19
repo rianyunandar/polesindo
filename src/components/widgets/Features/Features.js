@@ -11,7 +11,7 @@ export default ({ data = [] }) => {
         <CardButton
           to={"/blog/" + item.id}
           btn_after="&#xf105;"
-          btn_text="Read more"
+          btn_text="Lihat Detail"
           btn_round
           animation="slide-right"
           padding

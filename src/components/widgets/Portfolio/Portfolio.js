@@ -23,7 +23,7 @@ export default ({ data = [] }) => {
               type="outline-white-tw"
               hoverType="solid-color-tb"
             >
-              Read more
+              Lihat Detail
             </Button>
           </div>
         </div>

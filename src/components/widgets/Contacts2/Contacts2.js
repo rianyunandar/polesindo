@@ -13,68 +13,32 @@ export default () => {
     <Fragment>
       <div className={styles.header}>
         <span className="subtitle" style={{ color: THEME.color }}>
-          Send message
+          Hubungin Kami
         </span>
-        <h2>Feel free to contact us.</h2>
-        <p>
-          Energistically predominate high-payoff alignments whereas maintainable
-          materials timely deliverables. Synergistically leverage other's
-          holistic mindshare via high-payoff expertise.
-        </p>
+        <h2>Ayo Pesan Sekarang</h2>
       </div>
       <Layout col="4">
         <AddressBox
           icon="las la-phone"
-          title="Call Us"
-          text="+987 (077) 456-234"
+          title="Telepon &amp; WA"
+          text="+62 811800419 "
         />
         <AddressBox
           icon="la la-envelope-open"
-          title="Mail Us"
-          text="admin@mail.com"
+          title="Email"
+          text="polesindo58@gmail.com"
         />
         <AddressBox
           icon="la la-home"
-          title="Visit Us"
-          text="Otaki, 32 Wilson Street"
+          title="Jakarta"
+          text="Jl Damai no 15 Cipete Utara Kebayoran Baru"
         />
         <AddressBox
-          icon="las la-comment"
-          title="Support"
-          text="Live chart 24/7"
+          icon="la la-home"
+          title="Lampung"
+          text="Jln.ZA.Pagar Alam Gang.Harapan Labuan Ratu"
         />
         <span className={styles.divider} style={{ borderColor: THEME.color }} />
-      </Layout>
-
-      <Layout col="2">
-        <div className={styles.wrapper}>
-          <ContactForm style={{ border: "1px solid #eee" }} />
-        </div>
-
-        <div className={styles.info}>
-          <i
-            className="las la-long-arrow-alt-right"
-            style={{ color: THEME.color }}
-          />
-          <h2>Ready to start making busines with us?</h2>
-          <p>
-            Rapidiously transform integrated processes via frictionless
-            paradigms. Intrinsicly productize proactive catalysts for change via
-            economically sound relationships.
-          </p>
-          <Button
-            click={() =>
-              actions.toogleRequest(
-                "I'm ready to start making business with you!"
-              )
-            }
-            type="solid-gray-tb"
-            hoverType="solid-white-tb"
-            after="&#xf107;"
-          >
-            Get quote
-          </Button>
-        </div>
       </Layout>
     </Fragment>
   );

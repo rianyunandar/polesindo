@@ -30,8 +30,9 @@ export default ({ data = [] }) => {
       >
         <div className={styles.extra} style={{ background: THEME.color }}>
           <p>
-            Progressively synthesize metrics and multimedia based action items.
-            Globally benchmark process-centric experiences without technologies.
+            Poles Indo berpengalaman utk menangani semua jenis problem di semua
+            jenis lantai,menggunakan alat modern dan chemical yg berkualitas
+            tinggi dan menawarkan harga yg ekonomis
           </p>
         </div>
 
@@ -48,16 +49,6 @@ export default ({ data = [] }) => {
             {item.title}
           </h3>
           <p>{item.text.replace(/^(.{60}[^\s]*).*/, "$1")}</p>
-          <div className={styles.button}>
-            <Button
-              to={"/services/" + item.id}
-              type="solid-white-tb"
-              hoverType="solid-white-tb"
-              round
-              small
-              before="&#xf105;"
-            />
-          </div>
         </div>
       </div>
     ))
@@ -71,15 +62,15 @@ export default ({ data = [] }) => {
     >
       <div className={styles.list_front}>
         <h3>
-          Here is what you <b>should know</b>
+          Kenapa Harus Pilih <b>polesindo</b>
         </h3>
         <i className="las la-long-arrow-alt-down" />
       </div>
       <div className={styles.list_back}>
-        <p>
-          Progressively synthesize metrics and multimedia based action items.
-          Globally benchmark process-centric experiences without technologies.
-        </p>
+        <h4>
+          Jasa Poles Lantai Profesional Berpengalaman lebih dari 15 Tahun dan
+          lebih dari 1000 Project
+        </h4>
       </div>
     </div>
   );

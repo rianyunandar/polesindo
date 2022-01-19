@@ -25,7 +25,7 @@ export default ({ post, author = "", category = "", layout = "grid" }) => {
 
         <div className={styles.btn}>
           <Button to={"/blog/" + post.id} hoverType="solid-gray-tb">
-            Read More
+            Lihat Detail
           </Button>
         </div>
       </div>

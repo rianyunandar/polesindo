@@ -12,26 +12,25 @@ export default () => {
       <article className={styles.wrapper}>
         <div className={styles.info}>
           <span className={styles.subtitle} style={{ color: THEME.color }}>
-            Company info
+            Tentang Kami
           </span>
-          <h2>We create opportunity for new markets &amp; industries</h2>
+          <h2>Polesindo.com</h2>
           <p className={styles.paragraph}>
-            Collaboratively synergize extensible ROI whereas turnkey e-tailers.
-            Dramatically generate efficient mindshare vis-a-vis optimal
-            technology. Objectively benchmark cross functional internal or
-            "organic" sources without revolutionary collaboration and
-            idea-sharing.
+            penyedia layanan jasa poles lantai dari beragam material seperti
+            marmer, teraso, granit, batu andesit, lantai tegel, acian semen,
+            lantai beton yang berpengalaman dan telah dipercaya oleh banyak
+            pelanggan kami.
           </p>
           <p className={styles.paragraph}>
             <b>
-              Uniquely innovate exceptional leadership skills whereas
-              multidisciplinary paradigms. Energistically synergy whereas
-              interactive schemas.
+              Kami berkomitmen untuk memberikan pelayanan terbaik dan
+              profesional dalam hal memoles, membersihkan, serta proses
+              kristalisasi lantai
             </b>
           </p>
           <div className={styles.btn_box}>
             <Button to="/blog/post_4" hoverType="solid-gray-tb">
-              Read more
+              Hubungi Kami
             </Button>
             <Button
               click={() => actions.toogleVideo()}

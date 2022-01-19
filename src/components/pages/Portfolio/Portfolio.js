@@ -9,7 +9,6 @@ export default () => {
     <Fragment>
       <Header img={state.data.header_bgs.portfolio}>Our portfolio</Header>
       <Portfolio2 data={state.data.portfolio} />
-      <Subscribe2 />
       <Project data={state.data.portfolio} clients={state.data.reviews} />
     </Fragment>
   );

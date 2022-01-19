@@ -46,15 +46,13 @@ export default ({ data = [] }) => {
     >
       <div className="layout-header">
         <span className="subtitle" style={{ color: THEME.color }}>
-          Our services
+         Layanan Kami
         </span>
         <h2 style={{ color: "#fff" }}>
-          Check featured products for your benefits.
+          List Layanan Poles Indo 
         </h2>
         <p style={{ color: "#fff" }}>
-          Energistically predominate high-payoff alignments whereas maintainable
-          materials timely deliverables. Synergistically leverage other's
-          holistic mindshare via high-payoff expertise.
+        Kami polesindo.com adalah jasa poles dan kristalisasi semua jenis lantai Melayani Seluruh Indonesia
         </p>
       </div>
       {servicesList}

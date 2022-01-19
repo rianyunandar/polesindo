@@ -4,11 +4,19 @@ const photo = require("../assets/placeholders/photo.jpg");
 const logotype = require("../assets/placeholders/logotype.png");
 const icon = require("../assets/placeholders/icon.svg");
 
+// photo
+const photoActivy = require("../assets/content/polesactivity.jpeg");
+const PolesIndoBanner = require("../assets/content/PolesIndoBanner.jpg");
+const alatobat = require("../assets/content/bara.jpeg");
+const bara = require("../assets/content/alatobat.jpg");
+const dapur = require("../assets/content/dapur.jpeg");
+
+
 const database = {
   categories: [
     {
       id: "0",
-      title: "Produk",
+      title: "Layanan",
     },
     {
       id: "1",
@@ -102,15 +110,11 @@ const database = {
     },
     {
       title: "Tentang Kami",
-      url: "/about-us",
+      url: "about-us",
     },
     {
       title: "Layanan",
       url: "/services",
-    },
-    {
-      title: "Become a partner",
-      url: "/blog/post_3",
     },
     {
       title: "Hubungi Kami",
@@ -176,20 +180,6 @@ const database = {
   },
   menu: [
     {
-      children: [
-        {
-          name: "Slider Header",
-          url: "/",
-        },
-        {
-          name: "Paralax Image",
-          url: "/home-paralax",
-        },
-        {
-          name: "Video Background",
-          url: "/home-video",
-        },
-      ],
       name: "Home",
       url: "/",
     },
@@ -201,37 +191,7 @@ const database = {
       name: "Layanan",
       url: "/services",
     },
-    {
-      name: "Portfolio",
-      url: "/portfolio",
-    },
-    {
-      children: [
-        {
-          name: "Grid Left Sidebar",
-          url: "/blog-grid-left-sidebar",
-        },
-        {
-          name: "List Left Sidebar",
-          url: "/blog-list-left-sidebar",
-        },
-        {
-          name: "Grid Right Sidebar",
-          url: "/blog-grid-right-sidebar",
-        },
-        {
-          name: "List Right Sidebar",
-          url: "/blog-list-right-sidebar",
-        },
-        {
-          name: "Grid No Sidebar",
-          url: "blog-grid-without-sidebar",
-        },
-      ],
-      name: "Blog",
-      url: "/blog-grid-left-sidebar",
-    },
-    {
+       {
       name: "Kontak",
       url: "/contacts",
     },
@@ -722,203 +682,32 @@ const database = {
   ],
   posts: [
     {
-      category_id: 1,
+      category_id: 0,
       featured: true,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities.<p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
+      full:"Menghilangkan bekas acian semen,lem,cet minyak dll di permukaan lantai tidaklah semudah yang anda bayangkan,butuh ketelatenan dan ketelitian untuk menghilangkanya tanpa merusak permukaan lantai tersebut. <p>Jika anda mencoba menghilangkan bekas semen dengan formula yang biasa di jual di toko-toko maupun di yang sering di iklankan di media mungkin bisa sedikit demi sedikit menghilangkan noda tersebut,dan mungkin akan merusak permukaan Lantai anda jika pemakaian dan cara penggunaanya tidak tepat. Perawatan Untuk lantai tidak sembarangan dengan  formula yanga asal-asalan karena permukaan lantai sangat tipis dan rentas terhadap goresan,makan harus di tangani oleh ahlinya dan dengan formula khusus pastinya.<p>Demikan sekilas tentang perawatan lantai,semoga info ini bermanfaat dan jika anda berminat dengan jasa kami silahkan menghubungi contac personal kami untuk info lebih lengkapnya,terimakasih telah berkunung di blog kami.</p>",
       id: "post_0",
-      image: photo,
+      image: photoActivy,
       posting_date: "Feb 14, 2020",
       quote:
-        "Enthusiastically generate multidisciplinary benefits rather than bricks-and-clicks action items. ",
+        "Kami polesindo.com adalah jasa poles dan kristalisasi semua jenis lantai termasuk lantai jenis keramik, marmer, tyeraso, granit, lantai tegtel dan lantai acian semen.",
       short:
         "Jasa Poles Marmer, Jasa Poles Granite, Jasa Poles Teraso, Jasa Poles Lantai Tegel",
       title: "One Stop Cleaning Solutions",
       user_id: "2",
     },
     {
-      category_id: 2,
+      category_id: 0,
       featured: true,
       full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
+        "Untuk lokasi yang kami layani meliputi,rumah tinggal,ruko,gedung pemerintahan,gedung perkantoran,tempat ibadah,rumah sakit,sarana umum,dan lainya <p> Jika Anda kesulitan untuk mengembalikan tingkat kilap lantai Anda padahal secara rutin dipel dan dibersihkan, tidak perlu khawatir karena Anda dapat menggunakan jasa pembersih lantai. <p> Kami PolesIndo.com menggunakan alat-alat yang canggih serta didukung dengan tenaga profesional, PolesIndo menawarkan pelayanan service dengan optimal dan cepat.<p>Dengan berbagai pengalaman dalam hal poles lantai, PolesIndo menawarkan jasa perawatan lantai dengan optimal. Penggunaan alat dilakukan secara hati-hati guna memperhatikan kualitas marmer dan granit agar tidak terdapat bekas gores ataupun masalah lainnya.",
       id: "post_1",
-      image: photo,
+      image: PolesIndoBanner,
       posting_date: "Feb 07, 2020",
       quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
+        "Kami polesindo.com adalah jasa poles dan kristalisasi semua jenis lantai Melayani Seluruh Indonesia",
       short:
         "Melayani Jasa Poles Perkantoran, Perumahan & Sarana Umum Di Seluruh Indonesia",
-      title: "Jasa Poles Perkantoran, Perumahan & Sarana Umum",
-      user_id: "1",
-    },
-    {
-      category_id: 3,
-      featured: true,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_2",
-      image: photo,
-      posting_date: "Feb 12, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "The most important enjoy your lif thing is to enjoy your life - to be happy - it's enjoy your lif all that matters.",
-      title: "Create a business your parents would be proud of",
-      user_id: "2",
-    },
-    {
-      category_id: 0,
-      featured: true,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_3",
-      image: photo,
-      posting_date: "Feb 11, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "From the enclosure wall of the cemetery you can enjoy a distant view to the west into the Pustertal",
-      title: "How to become our partner and start do business",
-      user_id: "3",
-    },
-    {
-      category_id: 1,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_4",
-      image: photo,
-      posting_date: "Feb 28, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "Dramatically expedite cross-media potentialities for worldwide services. Quickly engineer multidisciplinary innovation with best-of-breed e-commerce. Compellingly productivate.",
-      title: "We create opportunity for new markets & industries",
-      user_id: "0",
-    },
-    {
-      category_id: 2,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_5",
-      image: photo,
-      posting_date: "Feb 09, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "I carry my years without submitting to the regimen of time and its chronology of dates and seasons.",
-      title: "Project start is time to celeprate",
-      user_id: "1",
-    },
-    {
-      category_id: 3,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_6",
-      image: photo,
-      posting_date: "Feb 08, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "The loss of a single species is a tragic event and yet we lose an estimated 10,000 species to extinction every year",
-      title: "Construction is reason to developing",
-      user_id: "2",
-    },
-    {
-      category_id: 0,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_7",
-      image: photo,
-      posting_date: "Feb 07, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "Objectively streamline magnetic leadership skills vis-a-vis an expanded array of paradigms appropriately incentivize adaptive.",
-      title: "To afford luxury life always work hard",
-      user_id: "3",
-    },
-    {
-      category_id: 1,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_8",
-      image: photo,
-      posting_date: "Feb 06, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "Happiness is the universal feeling we all aspire to experience more of, yet, we can be an angry, moody",
-      title: "Start you working process with tools",
-      user_id: "0",
-    },
-    {
-      category_id: 2,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_9",
-      image: photo,
-      posting_date: "Feb 05, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "Treat yourself to a night relive laden age of the railway Petworth with stay at The Old Railway Station in West Sussex",
-      title: "Create new way of manufacture",
-      user_id: "1",
-    },
-    {
-      category_id: 3,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_10",
-      image: photo,
-      posting_date: "Feb 04, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "If I have a chance to whisper the best advice to a baby and he’ll remember it for the rest of his life is this",
-      title: "Absolute knowledge on the business line",
-      user_id: "2",
-    },
-    {
-      category_id: 0,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_11",
-      image: photo,
-      posting_date: "Feb 03, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "We have great creative team they always ready to helped you. voluptatem quiase voluptase aspernatur auted fugit",
-      title: "Master your tools for best results",
-      user_id: "3",
-    },
-    {
-      category_id: 1,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_12",
-      image: photo,
-      posting_date: "Feb 02, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "We have great creative team they always ready to helped you. voluptatem quiase voluptase aspernatur auted fugit",
-      title: "Making business with minimal efforts",
-      user_id: "0",
-    },
-    {
-      category_id: 2,
-      full:
-        "Dynamically enhance distributed scenarios rather than extensive metrics. Compellingly supply leveraged leadership and standardized web-readiness. Phosfluorescently predominate competitive platforms after unique potentialities. Seamlessly engineer optimal niches through turnkey communities. Objectively grow emerging alignments before sticky synergy. <p> Enthusiastically e-enable inexpensive expertise for low-risk high-yield e-commerce. Monotonectally facilitate cutting-edge communities vis-a-vis process-centric systems. Competently utilize granular infomediaries with team building e-commerce. Seamlessly enable market positioning action items through optimal collaboration and idea-sharing. Dramatically revolutionize cross functional opportunities before multifunctional interfaces.<p> Uniquely pontificate e-business materials rather than seamless benefits. Completely coordinate client-centric channels for 24/365 communities. Quickly facilitate covalent interfaces after prospective vortals. Monotonectally envisioneer competitive collaboration and idea-sharing and plug-and-play systems. Energistically syndicate leading-edge initiatives vis-a-vis wireless materials. Completely initiate unique benefits via corporate core competencies. Holisticly maximize highly efficient channels without world-class partnerships. <p>Phosfluorescently brand stand-alone deliverables via premier infrastructures. Enthusiastically visualize scalable applications via market positioning web services. Phosfluorescently redefine high standards in models before emerging leadership. Energistically morph user-centric mindshare with 24/7 niches. Uniquely strategize resource maximizing outsourcing without cross functional ROI. Globally productize process-centric solutions rather than focused sources. Monotonectally repurpose bleeding-edge ideas via extensible human capital. <p>Collaboratively orchestrate covalent platforms rather than just in time infrastructures. Collaboratively expedite plug-and-play web services without professional ideas. Synergistically provide access to open-source markets with covalent methodologies. Dynamically develop multimedia based meta-services vis-a-vis an expanded array of infrastructures. Professionally supply ubiquitous initiatives whereas cross-platform users. Phosfluorescently restore superior solutions with error-free customer service.",
-      id: "post_13",
-      image: photo,
-      posting_date: "Feb 01, 2020",
-      quote:
-        "dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi",
-      short:
-        "We have great creative team they always ready to helped you. voluptatem quiase voluptase aspernatur auted fugit",
-      title: "Small business must evolve in big company",
+      title: "Perkantoran, Perumahan & Sarana Umum",
       user_id: "1",
     },
   ],
@@ -1072,7 +861,7 @@ const database = {
       subtitle: "Handling of construction materials",
       text:
         "Globally leverage existing error-free models and B2B products. Professionally productize interdependent value without bricks-and-clicks niches.",
-      title: "Construction",
+      title: "Profesional",
     },
     {
       featured: "yes",
@@ -1101,7 +890,7 @@ const database = {
       subtitle: "Making planning for ptoject",
       text:
         "Globally leverage existing error-free models and B2B products. Professionally productize interdependent value without bricks-and-clicks niches.",
-      title: "Loghistic",
+      title: "Alat Modern & Obat Terbaik",
     },
     {
       full:
@@ -1217,116 +1006,35 @@ const database = {
       title: "Distribution",
     },
   ],
-  team: [
+  salepoint: [
     {
-      about:
-        "Professionally deploy revolutionary information rather than multimedia based channels. Continually leverage existing B2B value vis-a-vis magnetic best practices. Dynamically syndicate alternative e-services without leveraged methodologies. Intrinsicly envisioneer cutting-edge relationships for pandemic meta-services.",
+      icon: icon,
       id: 0,
-      img: photo,
-      job: "Designer",
-      name: "Martin Tompson",
-      skills: [
-        "Front-End: 90",
-        "Wordpress: 80",
-        "React Native: 70",
-        "UI / UX Design: 80",
-      ],
-      stats: [
-        {
-          icon: "las la-clock",
-          text: "Hours per week",
-          title: "40+",
-        },
-        {
-          icon: "las la-briefcase",
-          text: "Projects completed",
-          title: "170",
-        },
-        {
-          icon: "las la-user-check",
-          text: "Satisfied clients",
-          title: "74",
-        },
-        {
-          icon: "las la-trophy",
-          text: "Competition winned",
-          title: "140",
-        },
-      ],
+      img: bara,
+      subtitle: "Handling of construction materials",
+      text:
+        "Berpengalaman Lebih dari 15 Tahun ",
+      title: "Profesional Di Bidangnya",
     },
     {
-      about:
-        "Professionally deploy revolutionary information rather than multimedia based channels. Continually leverage existing B2B value vis-a-vis magnetic best practices. Dynamically syndicate alternative e-services without leveraged methodologies. Intrinsicly envisioneer cutting-edge relationships for pandemic meta-services.",
+      icon: icon,
       id: 1,
-      img: photo,
-      job: "Developer",
-      name: "Juliana Redford",
-      skills: [
-        "Front-End: 90",
-        "Wordpress: 80",
-        "React Native: 70",
-        "UI / UX Design: 80",
-      ],
-      stats: [
-        {
-          icon: "las la-clock",
-          text: "Hours per week",
-          title: "40+",
-        },
-        {
-          icon: "las la-briefcase",
-          text: "Projects completed",
-          title: "170",
-        },
-        {
-          icon: "las la-user-check",
-          text: "Satisfied clients",
-          title: "74",
-        },
-        {
-          icon: "las la-trophy",
-          text: "Competition winned",
-          title: "140",
-        },
-      ],
+      img: alatobat,
+      subtitle: "Making planning for ptoject",
+      text:
+        "Globally leverage existing error-free models and B2B products. Professionally productize interdependent value without bricks-and-clicks niches.",
+      title: "Alat Modern & Obat Terbaik",
     },
     {
-      about:
-        "Professionally deploy revolutionary information rather than multimedia based channels. Continually leverage existing B2B value vis-a-vis magnetic best practices. Dynamically syndicate alternative e-services without leveraged methodologies. Intrinsicly envisioneer cutting-edge relationships for pandemic meta-services.",
+      icon: icon,
       id: 2,
-      img: photo,
-      job: "CEO, Director",
-      name: "Robert Ferguson",
-      skills: [
-        "Front-End: 90",
-        "Wordpress: 80",
-        "React Native: 70",
-        "UI / UX Design: 80",
-      ],
-      stats: [
-        {
-          icon: "las la-clock",
-          text: "Hours per week",
-          title: "40+",
-        },
-        {
-          icon: "las la-briefcase",
-          text: "Projects completed",
-          title: "170",
-        },
-        {
-          icon: "las la-user-check",
-          text: "Satisfied clients",
-          title: "74",
-        },
-        {
-          icon: "las la-trophy",
-          text: "Competition winned",
-          title: "140",
-        },
-      ],
+      img: dapur,
+      subtitle: "Create value for future product",
+      text:
+        "Proses Pengerjaan Cepat & Biaya Ekonomis",
+      title: "Cepat & Hemat Biaya",
     },
-  ],
+   ],
   users: [
     {
       about:
@@ -1334,31 +1042,7 @@ const database = {
       id: 0,
       img:
         "https://firebasestorage.googleapis.com/v0/b/cctv-a7975.appspot.com/o/reviews%2Fr1.jpg?alt=media&token=295fff4a-6766-4a97-9e3b-6c0f4c704c62",
-      name: "Marta Smith",
-    },
-    {
-      about:
-        "Efficiently visualize cutting-edge architectures vis-a-vis one-to-one collaboration and idea-sharing. Conveniently harness just in time niche markets after frictionless interfaces. Uniquely underwhelm frictionless imperatives and covalent users. Compellingly synthesize granular human capital before timely resources. ",
-      id: 1,
-      img:
-        "https://firebasestorage.googleapis.com/v0/b/cctv-a7975.appspot.com/o/reviews%2Fr2.jpg?alt=media&token=b7b35188-bfc7-409d-9ad8-78bc89b36abc",
-      name: "Mark Roberts",
-    },
-    {
-      about:
-        "Efficiently visualize cutting-edge architectures vis-a-vis one-to-one collaboration and idea-sharing. Conveniently harness just in time niche markets after frictionless interfaces. Uniquely underwhelm frictionless imperatives and covalent users. Compellingly synthesize granular human capital before timely resources. ",
-      id: 2,
-      img:
-        "https://firebasestorage.googleapis.com/v0/b/cctv-a7975.appspot.com/o/reviews%2Fr3.jpg?alt=media&token=40783389-abdc-4a53-8ea6-ee691732c668",
-      name: "Fred Johnson",
-    },
-    {
-      about:
-        "Efficiently visualize cutting-edge architectures vis-a-vis one-to-one collaboration and idea-sharing. Conveniently harness just in time niche markets after frictionless interfaces. Uniquely underwhelm frictionless imperatives and covalent users. Compellingly synthesize granular human capital before timely resources. ",
-      id: 3,
-      img:
-        "https://firebasestorage.googleapis.com/v0/b/cctv-a7975.appspot.com/o/reviews%2Fr4.jpg?alt=media&token=f324453f-3080-41bf-80a4-94dd1e20e10f",
-      name: "Ron Anderson",
+      name: "PolesIndo",
     },
   ],
   video: {
