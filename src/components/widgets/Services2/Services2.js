@@ -12,10 +12,6 @@ export default ({ data = [], items = "3" }) => {
     .map((item, index) => (
       <article key={index}>
         <div className={styles.card}>
-          <figure>
-            <img src={item.icon} alt="icon" />
-            <span style={{ background: THEME.color }} />
-          </figure>
           <h3>{item.title}</h3>
           <p>{item.text}</p>
           <Link
@@ -23,7 +19,7 @@ export default ({ data = [], items = "3" }) => {
             hoverStyle={{ color: "#000" }}
             url={"/services/" + item.id}
           >
-            Learn more
+            Selengkapnya
           </Link>
         </div>
       </article>
@@ -47,13 +43,13 @@ export default ({ data = [], items = "3" }) => {
     >
       <div className="layout-header">
         <span className="subtitle" style={{ color: THEME.color }}>
-          Our services
+          Layanan Kami
         </span>
-        <h2>We offer you professional bunch of services.</h2>
+        <h2>Layanan Profesional Kami.</h2>
         <p className="parargraph">
-          Energistically predominate high-payoff alignments whereas maintainable
-          materials timely deliverables. Synergistically leverage other's
-          holistic mindshare via high-payoff expertise.
+          Kami polesindo.com adalah jasa poles dan kristalisasi semua jenis
+          lantai termasuk lantai jenis keramik, marmer, tyeraso, granit, lantai
+          tegtel dan lantai acian semen.
         </p>
       </div>
       {servicesList}

@@ -34,8 +34,8 @@ export default ({ data = [] }) => {
           <div className={styles.intro}>
             <h1>{item.title}</h1>
             <h3>{item.short}</h3>
-            <Button to={"/blog/" + item.id} hoverType="solid-white-tb">
-              Lihat Detail
+            <Button to='/wa' hoverType="solid-white-tb">
+             Hubungi Kami
             </Button>
           </div>
           <i

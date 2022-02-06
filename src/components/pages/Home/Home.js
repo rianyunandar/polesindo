@@ -7,7 +7,6 @@ import {
   Features2,
   Contacts2
 } from "../../widgets";
-
 import { useCustomState } from "../../../state/state";
 
 export default () => {
@@ -16,11 +15,10 @@ export default () => {
   return (
     <Fragment>
       <Slider data={state.data.posts} />
-      <Services3 data={state.data.salepoint} />
+      {/* <Services3 data={state.data.salepoint} /> */}
       <Features2 data={state.data.features2} />
       <Services data={state.data.services} />
-      <Portfolio2 data={state.data.portfolio} />
-      {/* <Reviews data={state.data.reviews} /> */}
+      {/* <Portfolio2 data={state.data.portfolio} /> */}
       <Contacts2 />
     </Fragment>
   );

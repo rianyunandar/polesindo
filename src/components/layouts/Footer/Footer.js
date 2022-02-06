@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 import Layout from "../Layout/Layout";
-import { Logo, Link, Subscribe } from "../../elements";
+import { Logo, Link, Button } from "../../elements";
 import THEME from "../../../state/theme";
 import { useCustomState } from "../../../state/state";
-
 export default () => {
   const state = useCustomState()[0];
 
@@ -33,14 +32,15 @@ export default () => {
         <div className={styles.logo_area}>
           <Logo dark />
           <p>
-            Efficiently productivate adaptive testing after strategic
-            experiences dramatically through client-centric potentialities.
+            Kami jasa yg sudah berpengalaman utk menangani semua jenis problem
+            di semua jenis lantai,kami menggunakan alat modern dan chemical yg
+            berkualitas tinggi,kami menawarkan harga yg ekonomis
           </p>
-          <div className={styles.social}>
+          {/* <div className={styles.social}>
             <i className="lab la-facebook-f" />
             <i className="lab la-twitter" />
             <i className="lab la-linkedin-in" />
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.link_area}>
@@ -55,12 +55,11 @@ export default () => {
         </div>
 
         <div className={styles.subscribe}>
-          <h4>Newsletter</h4>
-          <Subscribe />
-          <p>
-            Productivate adaptive testing after strategic experiences
-            dramatically through.
-          </p>
+          <h4>Kontak</h4>
+          <Button to="/wa" hoverType="solid-white-tb">
+            Hubungi Via WhatApps
+          </Button>
+          <p>Segera Hubungi Kami untuk Jasa Poles Terbaik</p>
         </div>
       </div>
     </Layout>

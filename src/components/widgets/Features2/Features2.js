@@ -25,13 +25,9 @@ export default ({ data = [] }) => {
                 round
                 type="solid-white-tb"
                 hoverType="solid-color-tb"
-                click={() =>
-                  actions.toogleRequest(
-                    "Please call me back, I want to start do business with you!"
-                  )
-                }
+                to="/wa"
               >
-                Order Now
+               Pesan Jasa Sekarang
               </Button>
             </div>
           )}
@@ -50,13 +46,13 @@ export default ({ data = [] }) => {
     >
       <div className={["layout-header", styles.header].join(" ")}>
         <span className="subtitle" style={{ color: THEME.color }}>
-          Why choose us
+          Kenapa Pilih Jasa Kami
         </span>
-        <h2>Our company has trustworthy in a global economic.</h2>
+        <h2>Jasa Poles Dengan <br/>Pengalaman 15 Tahun dan Ribuan Tender</h2>
         <p className="parargraph">
-          Energistically predominate high-payoff alignments whereas maintainable
-          materials timely deliverables. Synergistically leverage other's
-          holistic mindshare via high-payoff expertise.
+          Kami jasa yg sudah berpengalaman utk menangani semua jenis problem di
+          semua jenis lantai,kami menggunakan alat modern dan chemical yg
+          berkualitas tinggi,kami menawarkan harga yg ekonomis
         </p>
       </div>
       {servicesList}

@@ -24,7 +24,6 @@ import Portfolio2 from "./Portfolio2/Portfolio2";
 import Partners from "./Partners/Partners";
 import Project from "./Project/Project";
 import Numbers from "./Numbers/Numbers";
-
 export {
   Features,
   Features2,

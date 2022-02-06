@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Header, ListBlock, Services2, Pricing } from "../../widgets";
+import { Header, Services2 } from "../../widgets";
 import { useCustomState } from "../../../state/state";
 
 export default () => {
@@ -7,8 +7,7 @@ export default () => {
 
   return (
     <Fragment>
-      <Header img={state.data.header_bgs.services}>Our services</Header>
-      <ListBlock data={state.data.choose} />
+      <Header img={state.data.header_bgs.services}>Layanan Kami</Header>
       <Services2 data={state.data.services} />
     </Fragment>
   );

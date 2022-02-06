@@ -63,9 +63,9 @@ export default ({ data = [] }) => {
             after="&#xf107;"
             type="outline-white-tw"
             hoverType="solid-white-tb"
-            click={() => actions.toogleModal()}
+            to='/wa'
           >
-            Get Quote
+            Hubungi Kami
           </Button>
         </div>
 
