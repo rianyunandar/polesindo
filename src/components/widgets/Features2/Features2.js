@@ -3,10 +3,10 @@ import styles from "./Features2.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import { Button } from "../../elements";
 import THEME from "../../../state/theme";
-import { useCustomState } from "../../../state/state";
+// import { useCustomState } from "../../../state/state";
 
 export default ({ data = [] }) => {
-  const actions = useCustomState()[1];
+  // const actions = useCustomState()[1];
 
   const servicesList = data
     .map((item, index) => (

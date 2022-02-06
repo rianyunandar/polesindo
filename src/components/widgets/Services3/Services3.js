@@ -3,7 +3,7 @@ import styles from "./Services3.module.scss";
 import Layout from "../../layouts/Layout/Layout";
 import THEME from "../../../state/theme";
 
-import { Button } from "../../elements";
+// import { Button } from "../../elements";
 
 export default ({ data = [] }) => {
   const ref = useRef(null);

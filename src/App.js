@@ -7,9 +7,9 @@ import {
   Services,
   Portfolio,
   Contacts,
-  Blog,
+  // Blog,
   ServiceSingle,
-  PortfolioSingle,
+  // PortfolioSingle,
 } from "./components/pages";
 import { Header, Sidebar, Footer } from "./components/layouts";
 import { ModalForm, ModalVideo, RequestForm } from "./components/ui";

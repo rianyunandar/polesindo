@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import {
   Services,
-  Services3,
-  Portfolio2,
+  // Services3,
+  // Portfolio2,
   Slider,
   Features2,
   Contacts2

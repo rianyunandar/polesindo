@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Header, Project, Portfolio2, Subscribe2 } from "../../widgets";
+import { Header, Project, Portfolio2 } from "../../widgets";
 import { useCustomState } from "../../../state/state";
 
 export default () => {

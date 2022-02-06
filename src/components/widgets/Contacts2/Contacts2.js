@@ -1,13 +1,15 @@
 import React, { Fragment } from "react";
 import styles from "./Contacts2.module.scss";
 import Layout from "../../layouts/Layout/Layout";
-import { ContactForm } from "../../ui";
-import { AddressBox, Button } from "../../elements";
+// import { ContactForm } from "../../ui";
+// import { AddressBox, Button } from "../../elements";
+import { AddressBox } from "../../elements";
+
 import THEME from "../../../state/theme";
-import { useCustomState } from "../../../state/state";
+// import { useCustomState } from "../../../state/state";
 
 export default () => {
-  const actions = useCustomState()[1];
+  // const actions = useCustomState()[1];
 
   return (
     <Fragment>
