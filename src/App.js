@@ -44,7 +44,7 @@ export default () => {
             path="/wa"
             render={() =>
               (window.location =
-                "https://wa.me/6281271477320?text=Saya%20tertarik%20dengan%20jasa%20PolesIndo")
+                "https://wa.me/62811800419?text=Saya%20tertarik%20dengan%20jasa%20PolesIndo")
             }
           />
           <Route path="/services/:service_id" exact component={ServiceSingle} />
