@@ -15,9 +15,12 @@ import { Header, Sidebar, Footer } from "./components/layouts";
 import { ModalForm, ModalVideo, RequestForm } from "./components/ui";
 import { Spinner } from "./components/elements";
 import { useCustomState } from "./state/state";
-
+import ReactGA from "react-ga";
+import RouteChangeTracker from "./RouteChangeTracker";
 export default () => {
   const [state, actions] = useCustomState();
+  const TRACKING_ID = "G-T5M3XBHKVL";
+  ReactGA.initialize(TRACKING_ID);
 
   useEffect(() => {
     actions.fetch();
@@ -94,5 +97,9 @@ export default () => {
     );
   }
 
-  return <Fragment>{app}</Fragment>;
+  return (
+    <Fragment>
+      {app} <RouteChangeTracker />
+    </Fragment>
+  );
 };
